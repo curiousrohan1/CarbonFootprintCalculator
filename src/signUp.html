@@ -30,7 +30,7 @@
     <br />
     <br />
     <div class="sign" id="sign-up">
-      <h3 style="text-align: center">Sign Up</h3>
+      <h3 id="sign-up-title">Sign Up</h3>
       <br />
       <input id="email-sign-up" class="form-control" placeholder="Email" />
       <br />
@@ -55,14 +55,9 @@
       <br />
       <hr />
       <br />
-      <div style="display: inline">
-        <p
-          style="display: none; float: left; position: relative; width: 90%"
-          class="alert alert-danger"
-          role="alert"
-          id="warning-sign-up"
-        ></p>
-        <button style="float: right" onclick="signUp()" class="sign btn">
+      <div id="sign-up-button-container">
+        <p class="alert alert-danger" role="alert" id="warning-sign-up"></p>
+        <button id="sign-up-button" onclick="signUp()" class="sign btn">
           Sign Up
         </button>
       </div>

@@ -1,63 +1,133 @@
-body{
-background-color:#203354;
+body {
+  background-color: #203354;
 }
-.motivation{
-color: #568f56;
+.motivation {
+  color: #568f56;
 }
-h3{
-font-size: 30px;
+h3 {
+  font-size: 30px;
 }
-h2{
-font-size:50px;
+h2 {
+  font-size: 50px;
 }
-h1{
-font-size: 70px;
+h1 {
+  font-size: 70px;
 }
-#sign-up-container{
-margin: auto;
-text-align: center;
-color: #82d682;
-
+#sign-up-container {
+  margin: auto;
+  text-align: center;
+  color: #82d682;
 }
-#title{
-color: antiquewhite;
+#title {
+  color: antiquewhite;
 }
-#left-pane{
-position: relative;
-width: 49%;
-float: left;
-padding-left: 1rem;
+#left-pane {
+  position: relative;
+  width: 49%;
+  float: left;
+  padding-left: 1rem;
 }
-#earth-img{
-position: relative;
-width: 49%;
-float: right;
-padding-right: 1rem;
+#earth-img {
+  position: relative;
+  width: 49%;
+  float: right;
+  padding-right: 1rem;
 }
-.sign{
-    background-color: #01021e;
-    color:azure;
+.sign {
+  background-color: #01021e;
+  color: azure;
 }
-button.sign{
-    background-color: #82d682;
+button.sign {
+  background-color: #82d682;
 }
-#sign-in,#sign-up{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+#sign-in,
+#sign-up {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
-a.sign{
-color: #568f56;
-}
-
-
-.sign > input{
-    max-width: 50%;
+a.sign {
+  color: #568f56;
 }
 
-#sign-up-link,#sign-in-link{
-  float:left;
+.sign > input {
+  max-width: 50%;
+}
+
+#sign-up-link,
+#sign-in-link {
+  float: left;
   position: static;
   display: block;
 }
+
+#home-container > * {
+  display: block;
+  position: static;
+  float: left;
+}
+
+#home {
+  color: azure;
+  background-image: url(R.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-title {
+  float: left;
+  position: relative;
+}
+#prof-button {
+  float: right;
+}
+
+#home-left {
+  position: static;
+  float:none;
+}
+#sign-up-title {
+  text-align: center;
+}
+#sign-up-button-container {
+  display: inline;
+}
+#warning-sign-up {
+  display: none;
+  float: left;
+  position: relative;
+  width: 90%;
+}
+#sign-up-button {
+  float: right;
+}
+#sign-in-title {
+  text-align: center;
+}
+#sign-in-help {
+  display: inline;
+}
+#forgot-password {
+  float: right;
+}
+#sign-in-button-div {
+  display: inline;
+}
+#warning-sign-in {
+  display: none;
+  float: left;
+  position: relative;
+  width: 40px;
+}
+#sign-in-button {
+  float: right;
+}
+#index {
+  display: inline;
+}
+#home-left>*{
+  display:block;
+  font-size: 50px;
+}
+#

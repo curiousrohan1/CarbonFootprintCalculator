@@ -30,7 +30,7 @@
     <br />
     <br />
     <div class="sign" id="sign-in">
-      <h3 style="text-align: center">Sign In</h3>
+      <h3 id="sign-in-title">Sign In</h3>
       <br />
       <input id="email-sign-in" class="form-control" placeholder="Email" />
       <br />
@@ -41,21 +41,17 @@
         placeholder="Password"
       />
       <br />
-      <div style="display: inline">
+      <div id="sign-in-help">
         <input type="checkbox" id="remember-me" name="remember-me" />
         <label for="remember-me">Remember me</label>
-        <a style="float: right">Forgot Password?</a>
+        <a id="forgot-password">Forgot Password?</a>
       </div>
       <br />
       <hr />
       <br />
-      <div style="display: inline">
-        <p
-          style="display: none; float: left; position: relative; width: 40px"
-          role="alert"
-          id="warning-sign-in"
-        ></p>
-        <button style="float: right" onclick="signIn()" class="sign btn">
+      <div id="sign-in-button-div">
+        <p role="alert" id="warning-sign-in"></p>
+        <button id="sign-in-button" onclick="signIn()" class="sign btn">
           Sign In
         </button>
       </div>
