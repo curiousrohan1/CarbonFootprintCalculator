@@ -1,0 +1,63 @@
+body{
+background-color:#203354;
+}
+.motivation{
+color: #568f56;
+}
+h3{
+font-size: 30px;
+}
+h2{
+font-size:50px;
+}
+h1{
+font-size: 70px;
+}
+#sign-up-container{
+margin: auto;
+text-align: center;
+color: #82d682;
+
+}
+#title{
+color: antiquewhite;
+}
+#left-pane{
+position: relative;
+width: 49%;
+float: left;
+padding-left: 1rem;
+}
+#earth-img{
+position: relative;
+width: 49%;
+float: right;
+padding-right: 1rem;
+}
+.sign{
+    background-color: #01021e;
+    color:azure;
+}
+button.sign{
+    background-color: #82d682;
+}
+#sign-in,#sign-up{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+a.sign{
+color: #568f56;
+}
+
+
+.sign > input{
+    max-width: 50%;
+}
+
+#sign-up-link,#sign-in-link{
+  float:left;
+  position: static;
+  display: block;
+}
