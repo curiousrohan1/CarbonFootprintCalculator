@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Carbon Footprint Calculator Sign In</title>
     <link
-      crossorigin="anonymous"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      rel="stylesheet"
+            crossorigin="anonymous"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            rel="stylesheet"
     />
-    <link href="styles.css" rel="stylesheet" />
-    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet"/>
+    <meta charset="UTF-8"/>
     <meta
-      content="Climate Change, Carbon Footprint Calculator"
-      name="keywords"
+            content="Climate Change, Carbon Footprint Calculator"
+            name="keywords"
     />
     <!-- Add keywords here -->
-    <meta content="Carbon Footprint Calculator" name="description" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Carbon Footprint Calculator" name="description"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <script
-      crossorigin="anonymous"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     ></script>
     <script src="jquery-3.5.1.min.js"></script>
     <script src="index.js"></script>
-  </head>
+</head>
 
-  <body>
-    <br />
-    <br />
-    <div class="sign" id="sign-in">
-      <h3 id="sign-in-title">Sign In</h3>
-      <br />
-      <input id="email-sign-in" class="form-control" placeholder="Email" />
-      <br />
-      <input
-        id="password-sign-in"
-        class="form-control"
-        type="password"
-        placeholder="Password"
-      />
-      <br />
-      <div id="sign-in-help">
-        <input type="checkbox" id="remember-me" name="remember-me" />
+<body>
+<br/>
+<br/>
+<div class="sign" id="sign-in">
+    <h3 id="sign-in-title">Sign In</h3>
+    <br/>
+    <input class="form-control" id="email-sign-in" placeholder="Email"/>
+    <br/>
+    <input
+            class="form-control"
+            id="password-sign-in"
+            placeholder="Password"
+            type="password"
+    />
+    <br/>
+    <div id="sign-in-help">
+        <input id="remember-me" name="remember-me" type="checkbox"/>
         <label for="remember-me">Remember me</label>
         <a id="forgot-password">Forgot Password?</a>
-      </div>
-      <br />
-      <hr />
-      <br />
-      <div id="sign-in-button-div">
-        <p role="alert" id="warning-sign-in"></p>
-        <button id="sign-in-button" onclick="signIn()" class="sign btn">
-          Sign In
-        </button>
-      </div>
-      <a class="sign" href="signUp.html">Don't have an account?</a>
     </div>
-  </body>
+    <br/>
+    <hr/>
+    <br/>
+    <div id="sign-in-button-div">
+        <p id="warning-sign-in" role="alert"></p>
+        <button class="sign btn" id="sign-in-button" onclick="signIn()">
+            Sign In
+        </button>
+    </div>
+    <a class="sign" href="signUp.html">Don't have an account?</a>
+</div>
+</body>
 </html>
